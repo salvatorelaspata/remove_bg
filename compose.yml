@@ -1,0 +1,6 @@
+services:
+  remove-bg:
+    build: .
+    ports:
+      - "8001:8001"
+    container_name: remove-bg
