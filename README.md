@@ -33,7 +33,7 @@ This project provides a simple service to convert HEIC images to JPG format usin
 
 ### Usage
 
-1. Send a POST request to `http://localhost:8001/convert` with a HEIC file in the `file` field of a multipart form.
+1. Send a POST request to `http://localhost:8002/convert` with a HEIC file in the `file` field of a multipart form.
 
 ### Example
 
