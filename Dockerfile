@@ -17,7 +17,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY app.py .
 
 # Espone la porta su cui gira il servizio
-EXPOSE 8001
+EXPOSE 8002
 
 # Avvia l'applicazione con Uvicorn usando il modulo Python
-CMD ["python", "-m", "uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8001"]
+CMD ["python", "-m", "uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8002"]

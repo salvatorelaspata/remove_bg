@@ -2,5 +2,5 @@ services:
   remove-bg:
     build: .
     ports:
-      - "8002:8001"
+      - "8002:8002"
     container_name: remove-bg
